@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Checkout-Confirm-Cash</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<!-- laptop -->
+				<div class="menu"></div>
+				<div class="basket"></div>
+
+				<div class="logo">
+					<div class="logo__pic"><img src="img/content/logo.svg" alt="logo"></div>
+				</div>
+				<ul class="steps">
+					<li class="steps__item">ДОСТАВКА</li>
+					<li class="steps__item">ОПЛАТА</li>
+					<li class="steps__item active">ПОДТВЕРЖДЕНИЕ</li>
+				</ul>
+			</div>
+		</header>
+
+		<div class="container container_top">
+			<div class="tablet-top">
+				<ul class="steps">
+					<li class="steps__item">Доставка</li>
+					<li class="steps__item">Оплата</li>
+					<li class="steps__item active"><span class="step__laptop">Подтверждение</span><span class="step__mobile">Заказ</span></li>
+				</ul>
+			</div>
+			<div class="btn-block btn-block_mobile">
+				<button class="btn confirmation-sumbit" type="submit">Подтвердить заказ</button>
+			</div>
+		</div>
+
+		<main class="main">
+			<div class="container">
+				<div class="content">
+					<!-- left side -->
+					<div class="content-left">
+
+						<div class="content-steps">
+							<div class="delivery">
+								<div class="delivery__title title">ДОСТАВКА</div>
+								<div class="delivery__info">
+									Самовывоз: Киев, №1, Харьковское шоссе, 201/203, БЦ modnaVilla, 1 этаж, Київ
+								</div>
+								<div class="delivery__time">С 10:00 до 21:00, без выходных</div>
+								<div class="delivery__recipient">
+									<div class="delivery__recipient__name">Получатель: Василий Пупкин</div>
+									<div class="delivery__recipient__phone">(099) 123-45-67</div>
+								</div>
+								<div class="delivery__change"><a href="#" class="delivery__change__link">Изменить</a></div>
+							</div>
+
+							<div class="payment">
+								<div class="payment__title title ">ОПЛАТА</div>
+								<div class="payment__info">
+									<span class="payment__info-text">Наличными в платежном терминале </span>
+									<div class="payment__info_mobile">
+										<div class="payment__info_mobile-text">Банковской картой на сайте</div>
+										<div class="payment__info_mobile-card">
+											<div class="icon-mastercard"><img src="img/content/mastercard.svg" alt="mastercard"></div> 
+											<div>Mastercard **** 0705</div>
+										</div>
+									</div>
+								</div>
+								<div class="payment__change"><a href="#" class="payment__change__link">Изменить</a></div>
+								<div class="payment__advice">
+									<div class="payment__advice__pic"></div>
+									<div class="payment__advice__text">
+										Оплатите картой на сайте и получите <br>
+										бесплатную доставку до 5 кг и <a href="#" class="discount">скидку 5%</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="order">
+							<div class="order__headline">Быстрая доставка Black</div>
+							<div class="order__wrap">
+
+								<ul class="order__list">
+									<li class="order__item">
+										<div class="order__pic"><img src="img/content/order-1.png" alt="order-1"></div>
+										<div class="order__product">
+											<div class="order__product__title">Легинсы United Colors of Benetton</div>
+											<div class="order__product__desc">
+												Размер: XS, Цвет: Белый, <br>
+												Цена: 1400 грн, Кол-во: 1, Сумма: 1400 грн
+											</div>
+										</div>
+									</li>
+									<li class="order__item">
+										<div class="order__pic"><img src="img/content/order-2.png" alt="order-2"></div>
+										<div class="order__product">
+											<div class="order__product__title">Футболка Colins</div>
+											<div class="order__product__desc">
+												Размер: XS, Цвет: Белый <br>
+												Цена: 1400 грн, Кол-во: 1, Сумма: 1400 грн
+											</div>
+										</div>
+									</li>
+								</ul>
+
+								<div class="order__desc">
+									<ul class="order__desc__list">
+										<li class="order__desc__item">
+											<div class="order__desc__prop">Кол-во товаров</div>
+											<div class="order__desc__value">2</div>
+										</li>
+										<li class="order__desc__item">
+											<div class="order__desc__prop">Стоимость доставки</div>
+											<div class="order__desc__value">бесплатно</div>
+										</li>
+										<li class="order__desc__item">
+											<div class="order__desc__prop">Сумма заказа</div>
+											<div class="order__desc__value">2800 грн</div>
+										</li>
+										<li class="order__desc__item">
+											<div class="order__desc__prop">Дата доставки</div>
+											<div class="order__desc__value">28 Окт. — 04 Ноя.</div>
+										</li>
+										<li class="order__desc__item">
+											<div class="order__desc__prop">Общий вес</div>
+											<div class="order__desc__value order__desc__value_hint">7 кг <a href="#" class="hint"></a></div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div> <!-- order -->
+						<a href="#" class="back-basket"><i class="fas fa-angle-left"></i> Вернуться в корзину</a>
+					</div>
+
+					<!-- right side -->
+					<div class="confirmation-wrap">
+						<div class="confirmation">
+							<div class="confirmation__title title">ПОДТВЕРЖДЕНИЕ</div>
+							<div class="confirmation__promo">
+								<form class="form form-promo" action="#">
+									<div class="input-block">
+										<input type="text" class="input" placeholder="Ввести промокод">
+									</div>
+									<div class="btn-block">
+										<button class="btn btn-promo" type="submit">Применить</button>
+									</div>
+								</form>
+							</div>
+
+							<div class="confirmation__form">
+								<form class="form form-confirmation">
+
+									<fieldset class="form__group ">
+										<legend class="form__group__title">Использовать перснальный счет</legend>
+										<div class="checkbox-wrap">
+											<label class="label">
+												<input type="checkbox" checked>
+												<span class="sum">100 грн</span>
+											</label>
+										</div>
+									</fieldset>
+
+									<fieldset class="form__group ">
+										<legend class="form__group__title">Использовать досупные бонусы</legend>
+										<ul class="bonus">
+											<li class="bonus__item">
+												<div class="checkbox-wrap">
+													<label class="label">
+														<input type="checkbox" checked>
+														<span class="sum">100 грн</span>
+													</label>
+												</div>
+												<div class="bonus__term">до 3 Авг 2017 6:00 <a href="#" class="bonus__term__more"></a></div>
+											</li>
+											<li class="bonus__item ">
+												<div class="checkbox-wrap">
+													<label class="label">
+														<input type="checkbox" >
+														<span class="sum">30 грн</span>
+													</label>
+												</div>
+												<div class="bonus__term">до 3 Авг 2017 6:00 <a href="#" class="bonus__term__more"></a></div>
+											</li>
+											<li class="bonus__item bonus__item_gray">
+												<div class="checkbox-wrap">
+													<label class="label">
+														<input type="checkbox" >
+														<span class="sum">30 грн</span>
+													</label>
+												</div>
+												<div class="bonus__term">до 3 Авг 2017 6:00 <a href="#" class="bonus__term__more"></a></div>
+											</li>
+										</ul>
+										<a href="#" class="bonus__more-link">Показать ещё бонусы</a>
+									</fieldset>
+
+									<fieldset class="form__group ">
+										<div class="statistics">
+											<ul class="statistics__list">
+												<li class="statistics__item">
+													<div class="statistics__prop">Общее кол-во товаров</div>
+													<div class="statistics__value">3</div>
+												</li>
+												<li class="statistics__item">
+													<div class="statistics__prop">Сумма заказов</div>
+													<div class="statistics__value">4350 грн</div>
+												</li>
+												<li class="statistics__item">
+													<div class="statistics__prop">Стоимость доставки</div>
+													<div class="statistics__value">380 грн </div>
+												</li>
+												<li class="statistics__item statistics__item_red">
+													<div class="statistics__prop">При оплате картой</div>
+													<div class="statistics__value">-60 грн</div>
+												</li>
+												<li class="statistics__item">
+													<div class="statistics__prop">Вес посылки</div>
+													<div class="statistics__value">7 кг</div>
+												</li>
+											</ul>
+											<div class="statistics__advice">
+												<div class="statistics__advice__pic"></div>
+												<div class="statistics__advice__text">
+													При заказе весом более 5 кг, доплата
+													15 грн за каждый следующий кг
+												</div>
+											</div>
+										</div>
+									</fieldset>
+
+									<fieldset class="form__group ">
+										<div class="total">
+											<div class="total-block">
+												<div class="total__prop">К оплате: </div>
+												<div class="total__value">4632 грн</div>
+											</div>
+											<div class="total__advice">
+												<div class="total__advice__pic"></div>
+												<div class="total__advice__text">
+													Оплатите картой сейчас и получите
+													дополнительную скидку 5%
+												</div>
+											</div>
+										</div>
+									</fieldset>
+									<div class="btn-block">
+										<button class="btn confirmation-sumbit" type="submit">Подтвердить заказ</button>
+									</div>
+									<div class="payment-systems">
+										<div class="payment-systems__pic"><img src="img/content/verified-by-visa.svg" alt="verified-by-visa"></div>
+										<div class="payment-systems__pic"><img src="img/content/latest.svg" alt="latest"></div>
+									</div>
+
+								</form>
+							</div> <!-- confirmation__form -->
+						</div> <!-- confirmation -->
+
+						<a href="#" class="back-basket back-basket_mobile"><i class="fas fa-angle-left"></i> Вернуться в корзину</a>
+
+						<div class="contract">
+							Нажимая «Подтвердить заказ», вы соглашаетесь с <a href="#" class="contract__link">договором публичной оферты</a>
+						</div>
+					</div>
+
+
+
+
+				</div> <!-- content -->
+			</div>
+		</main>
+	</div> <!-- end wrapper  -->
+
+	<script src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+$green: #4fb748;
+$red: #ff445e;
+$pink: #f00085;
+$blue: #4c80ac;
+$gray: #626f77;
+$black: #000;
+
+
+
+// start main less
+@import "general/normalize";
+@import "general/moduls";
+@import "general/settings";
+
+
+
+@import "pages/checkout-confirm-cash";
+@import "pages/mediaquery";

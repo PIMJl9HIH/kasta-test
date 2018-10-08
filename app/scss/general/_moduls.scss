@@ -1,0 +1,53 @@
+%basic-fonts-style-normal {
+	font-family: 'HelveticaNeue';
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: $black;
+}
+
+%basic-fonts-style-little {
+	font-family: 'HelveticaNeue';
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	color: $black;
+}
+
+%blue-link {
+	font-family: 'HelveticaNeue';
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	color: $blue;
+}
+
+%block-box {
+	width: 444px;
+	padding: 24px 32px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 0 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+%selected-round-pseudo {
+	content: '';
+	width: 24px;
+	height: 24px;
+	display: block;
+	background: url('../img/icons/selected-round.svg') no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
